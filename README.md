@@ -1,1 +1,1 @@
-# pomodoro-timer
+Although this is a project on Youtube, I am trying to add my own functionality to the project. The first thing I did was make it to where there was a break time and inidcated what time it was. Now what I am trying to do currently is give the user a choice to change how long they want to study for, and how long they want their break to be.

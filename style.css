@@ -1,0 +1,89 @@
+html{
+    background: linear-gradient(#009245,#FCEE21,#009245);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.container{
+    margin:0 auto;
+    max-width: 100vh;    
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    font-size: 36px;
+    margin: 10px;
+    color: #2c3e50;
+}
+
+.timer{
+    font-size: 52px;
+    color: #2c3e50;
+
+}
+.btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+button:hover{
+    opacity: 70%;
+}
+#start{
+    background: rgb(31, 167, 31);
+}
+#reset{
+    background: grey;
+}
+#stop{
+    background: red
+}
+
+#study-or-break{
+    
+    color: #2c3e50;
+    font-size: 30px;
+    display: inline;
+
+}
+
+.UI-container{
+    display: flex;
+    color:#2c3e50;
+    font-weight: bold;
+    justify-content: space-around;
+    
+}
+
+.breaktime-UI{
+    display: flex;
+    
+
+
+}
+
+.study-time-UI{
+    display: flex;
+    align-items: center;
+}
+
+#add-time{
+
+    display: flex;
+    align-items: center;
+}
+#addbreak{
+    display: flex;
+    align-items: center;
+}
+
+
